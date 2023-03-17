@@ -56,25 +56,25 @@ body {
 
 /* Clima */
 
-#wheater-data {
+#weather-data {
     border-top: 1px solid #fff;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
 }
 
-#wheater-data h2 {
+#weather-data h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 0.6rem;
 }
 
-#wheater-data h2 i {
+#weather-data h2 i {
     font-size: 1rem;
 }
 
-#wheater-data span {
+#weather-data span {
     margin: 0.6rem;
 }
 
@@ -89,6 +89,11 @@ body {
     margin: 0.6rem 0rem;
 }
 
+#description {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #details-container {
     display: flex;
     justify-content: center;
@@ -96,7 +101,7 @@ body {
 
 }
 
-#details-container #umidity {
+#details-container #humidity {
     border-right: 1px solid #fff;
     margin: 0.6rem;
     padding: 0.6rem;
